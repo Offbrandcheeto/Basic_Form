@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 1.6;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f4f4f4;
+}
+
+/* Container */
+
+.container {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+/* Labels, Inputs, & Textarea */
+
+label {
+  display: block;
+  font-size: 1.5rem;
+}
+
+input,
+textarea {
+  width: 600px;
+  border: 1px #ddd solid;
+  margin: 1rem 0;
+  padding: 0.5rem;
+  outline: 0;
+  border-radius: 0.5rem;
+}
+
+textarea {
+  height: 10rem;
+}
+
+/* Submit Button */
+
+.btn {
+  cursor: pointer;
+  outline: 0;
+  border: 0;
+  background: #333;
+  color: #fff;
+  padding: 1rem 1.5rem;
+  border-radius: 1rem;
+  font-size: 1.25rem;
+  transition: opacity 0.4s ease-in-out;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
